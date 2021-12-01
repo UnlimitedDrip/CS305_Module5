@@ -33,3 +33,6 @@ New code should be written in a feature branch and tested locally. Once ready to
 # Useful Resources
 https://cloud.google.com/dialogflow/es/docs/fulfillment-overview
 https://cloud.google.com/dialogflow/es/docs/fulfillment-webhook
+
+# License Information
+This project is using the Apache 2.0 License. Please see license file for more information.
