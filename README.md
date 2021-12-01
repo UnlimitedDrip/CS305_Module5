@@ -1,5 +1,3 @@
-# CS305_Module5
-
 # Introduction 
 This repository contains functionality for the Chatbot API. It's purpose is to provide a webhook service that DialogFlow can send a webhook request and receive a webhook response. This will allow us to create intents that use fullfillment to call this API. Within this API, we can create custom functionality and pull from various sources to serve data to the Louie Chatbot.
 
@@ -8,7 +6,7 @@ Step 1:
 Make sure you have access to the Git repository. From there you will get the path to clone the repository down. I recommend creating a new folder (mine is projects_git) on your C drive and then cloning into that folder.
 
 Step 2:
-Install git (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and clone the repository. Git comes with a command line interface, but feel free to download a GUI if you would prefer. I suggest doing the clone from the command line interface and then using Team Explorer in Visual Studio. Open the command line or git BASH and navigate to the folder you setup on your C drive. Run this command “git clone https://devops.internal.nau.edu/ITS-EIS/EISDev/_git/ChatCoreApiNauEdu”.
+Install git (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and clone the repository. Git comes with a command line interface, but feel free to download a GUI if you would prefer. I suggest doing the clone from the command line interface and then using Team Explorer in Visual Studio. Open the command line or git BASH and navigate to the folder you setup on your C drive. Run this command “git clone xxxxxxxxx”.
 
 Step 3:
 Download Visual Studio 2019 (https://visualstudio.microsoft.com/downloads/). I recommend Professional or Enterprise as they have more features, but they require a license. Marc Lord can bind a license to your nau.edu email if you have not used Visual Studio before. There is also a Community version which is similar to Professional but does not require a license, but it does not have as many code lens features to track changes across multiple users.  If you would prefer a light weight IDE or are using a different OS then Windows, then I recommend using Visual Studio Code (https://code.visualstudio.com/) which is a bit more simplistic and doesn’t require a license. If given the option to install IIS Express in the setup make sure to include it. 
