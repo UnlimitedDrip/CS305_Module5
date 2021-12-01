@@ -5,7 +5,7 @@ This repository contains functionality for the Chatbot API. It's purpose is to p
 
 # Getting Started
 Step 1:
-Make sure you have access to https://devops.internal.nau.edu/ITS-EIS/EISDev/_git/ChatCoreApiNauEdu. From there you will get the path to clone the repository down. I recommend creating a new folder (mine is projects_git) on your C drive and then cloning into that folder.
+Make sure you have access to the Git repository. From there you will get the path to clone the repository down. I recommend creating a new folder (mine is projects_git) on your C drive and then cloning into that folder.
 
 Step 2:
 Install git (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and clone the repository. Git comes with a command line interface, but feel free to download a GUI if you would prefer. I suggest doing the clone from the command line interface and then using Team Explorer in Visual Studio. Open the command line or git BASH and navigate to the folder you setup on your C drive. Run this command “git clone https://devops.internal.nau.edu/ITS-EIS/EISDev/_git/ChatCoreApiNauEdu”.
@@ -30,7 +30,7 @@ If installing Visual Studio did not setup IIS Express for you, you can download 
 Using Visual Studio 2019 and IIS Express you can build the code and run it using the debugger. While the debugger is running you can see the results by opening your browser and going to http://localhost:55556/index.html. At this time we do not have any automated testing.
 
 # Contribute
-New code should be written in a feature branch and tested locally. Once ready to be incorporated in the development environment (https://dev.core.api.nau.edu/chat/index.html), a pull request should be used to merge the changes into the master branch. From there the approver should squash commits and cleanup the branch when it is integrated into the master branch. When a change is pushed to the master branch it will compile and release to the dev envrionment. You can see the build process in pipeline and release information in the release section. From there the release can be approved for test and prod.
+New code should be written in a feature branch and tested locally. Once ready to be incorporated in the development environment, a pull request should be used to merge the changes into the master branch. From there the approver should squash commits and cleanup the branch when it is integrated into the master branch. When a change is pushed to the master branch it will compile and release to the dev envrionment. You can see the build process in pipeline and release information in the release section. From there the release can be approved for test and prod.
 
 # Useful Resources
 https://cloud.google.com/dialogflow/es/docs/fulfillment-overview
